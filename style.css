@@ -1,0 +1,54 @@
+body {
+  font-family: 'Computer Modern Serif', sans-serif;
+  font-size: 18px;
+  width: 50%;
+  margin: auto;
+}
+.title {
+  text-align: right;
+}
+
+.nav-menu {
+  text-align: right;
+}
+.nav-current{
+  margin-left: 1em;
+  border-bottom: solid 1px black;
+}
+.nav-link {
+  margin-left: 1em;
+  color: black;
+}
+.nav-link:hover {
+  border-bottom: dashed 1px black;
+}
+.content-block {
+  border-top: solid 1px black;
+  /* padding-top: 1em; */
+  padding-bottom: 2em;
+}
+
+.chess {
+  border-top: solid 1px black;
+  /* padding-top: 1em; */
+  padding-bottom: 2em;
+  position: center
+}
+.table-content {
+  padding-bottom: 1em;
+}
+.table-date {
+  vertical-align: top;
+  padding-bottom: 1em;
+  padding-right: 1em;
+  font-weight: bold;
+}
+a {
+  color: #0055ba;
+}
+a:link, a:visited {
+  text-decoration: none;
+}
+a:hover, a:active {
+  border-bottom: dashed 1px #0055ba;
+}
